@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #16171d;
+  --color-brand-card: #1f2028;
+  --color-brand-border: #2e303a;
+  --color-brand-accent: #865cb0;
+  --color-brand-accent-hover: #9a6ec8;
+  --color-brand-text: #f3f4f6;
+  --color-brand-muted: #9ca3af;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
