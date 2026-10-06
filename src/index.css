@@ -1,17 +1,28 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-bg: #16171d;
-  --color-brand-card: #1f2028;
-  --color-brand-border: #2e303a;
-  --color-brand-accent: #865cb0;
-  --color-brand-accent-hover: #9a6ec8;
-  --color-brand-text: #f3f4f6;
-  --color-brand-muted: #9ca3af;
+  --color-brand-bg: #050814;
+  --color-brand-card: #0b1120;
+  --color-brand-card-hover: #111827;
+  --color-brand-border: #1e293b;
+  --color-brand-purple: #7c3aed;
+  --color-brand-accent: #6366f1;
+  --color-brand-accent-hover: #4f46e5;
+  --color-brand-text: #f8fafc;
+  --color-brand-muted: #94a3b8;
 }
 
 body {
   background-color: var(--color-brand-bg);
+  /* Gradiente radial multicapa para crear la atmósfera del diseño original */
+  background-image:
+    radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      rgba(99, 102, 241, 0.22),
+      transparent 70%
+    ),
+    radial-gradient(circle at 50% 20%, rgba(30, 58, 138, 0.25), transparent 60%);
+  background-attachment: fixed;
   color: var(--color-brand-text);
   font-family:
     system-ui,
@@ -20,4 +31,7 @@ body {
     "Segoe UI",
     Roboto,
     sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
 }
