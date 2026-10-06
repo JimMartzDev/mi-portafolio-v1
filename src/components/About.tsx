@@ -17,15 +17,18 @@ export function About() {
         {/* Texto de presentación */}
         <div className="space-y-4 text-brand-muted text-sm sm:text-base leading-relaxed">
           <p>
-            Aunque estoy dando mis primeros pasos en el ámbito profesional,
-            compenso la falta de experiencia con dedicación constante, capacidad
-            de autoaprendizaje y ganas de construir software que aporte valor
-            real.
+            Desarrolladora con 5 años de trayectoria previa en análisis y
+            control de calidad industrial, experiencia que aportó a mi perfil un
+            enfoque metódico, disciplina en la validación de procesos y alta
+            atención al detalle.
           </p>
           <p>
-            Me apasiona el panorama completo: desde bocetar e implementar
-            componentes visuales limpios hasta diseñar endpoints RESTful y
-            gestionar bases de datos.
+            Especializada en el ecosistema JavaScript/TypeScript, construyo
+            aplicaciones web completas: desde interfaces intuitivas, responsivas
+            y modulares con React y Tailwind CSS, hasta servicios backend con
+            Node.js, APIs RESTful y persistencia de datos mediante ORMs.
+            Enfocada en la creación de software estable, bien estructurado y con
+            valor de negocio medible.
           </p>
         </div>
       </div>

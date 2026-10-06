@@ -11,7 +11,7 @@ export function Hero() {
       <div className="inline-flex items-center gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-full bg-brand-card/90 border border-brand-border text-xs sm:text-sm text-brand-muted mb-6 max-w-[90%] text-center">
         <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0 animate-pulse" />
         <span className="truncate sm:overflow-visible">
-          Disponible para Prácticas / Primer Empleo Tech
+          Disponible para nuevos retos y proyectos
         </span>
       </div>
 
@@ -25,14 +25,14 @@ export function Hero() {
 
       {/* Subtítulo */}
       <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-white/90 mb-4 px-2">
-        Desarrolladora Full Stack Junior | Tecnóloga en Software
+        Desarrolladora de Software Full Stack
       </h2>
 
       {/* Párrafo descriptivo limpio */}
       <p className="max-w-xl text-brand-muted text-sm sm:text-base leading-relaxed mb-8 px-2">
-        A punto de graduarme como tecnóloga en desarrollo de software. Construyo
-        aplicaciones web modernas, conectando interfaces intuitivas en el
-        Frontend con arquitecturas sólidas en el Backend.
+        Construyo aplicaciones web integrales combinando interfaces modernas,
+        dinámicas y accesibles con servicios backend estructurados y APIs
+        RESTful eficientes.
       </p>
     </section>
   );
