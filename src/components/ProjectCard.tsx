@@ -16,7 +16,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
           {project.description}
         </p>
 
-        {/* Lista de tecnologías (Tags) */}
         <div className="flex flex-wrap gap-2 mb-6">
           {project.tags.map((tag) => (
             <span
@@ -29,7 +28,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </div>
 
-      {/* Enlaces a código y demo */}
       <div className="flex items-center gap-4 pt-4 border-t border-brand-border/50 text-sm">
         <a
           href={project.githubUrl}

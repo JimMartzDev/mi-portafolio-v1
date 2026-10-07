@@ -18,7 +18,6 @@ export function Projects() {
         </p>
       </div>
 
-      {/* Cuadrícula responsiva: 1 columna en móvil, 2 en tablet y 3 en pantallas grandes */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projectsData.map((project) => (
           <ProjectCard key={project.id} project={project} />
