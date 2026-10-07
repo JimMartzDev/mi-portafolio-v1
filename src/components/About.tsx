@@ -1,32 +1,29 @@
 export function About() {
   return (
-    <section
-      id="sobre-mi"
-      className="py-12 px-4 sm:px-6 max-w-4xl mx-auto w-full"
-    >
-      <div className="bg-brand-card/70 border border-brand-border/80 rounded-2xl p-6 sm:p-10 backdrop-blur-sm shadow-xl">
-        <div className="flex items-center gap-4 mb-6">
-          <div>
-            <h3 className="text-lg font-bold text-white">Sobre mi</h3>
-
-            <p className="text-xs text-brand-muted">Colombia</p>
-          </div>
+    <section id="sobre-mi" className="py-8 px-4 max-w-5xl mx-auto w-full">
+      <div className="bg-white border border-slate-200/80 rounded-2xl p-6 sm:p-8 shadow-xs">
+        <div className="flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
+          <span className="font-mono text-xs font-semibold uppercase tracking-wider text-brand-accent">
+            Perfil Profesional
+          </span>
+          <span className="text-xs text-brand-muted font-mono">Colombia</span>
         </div>
 
-        <div className="space-y-4 text-brand-muted text-sm sm:text-base leading-relaxed">
+        <div className="space-y-4 text-slate-700 text-sm sm:text-base leading-relaxed">
           <p>
-            Desarrolladora con 5 años de trayectoria previa en análisis y
-            control de calidad industrial, experiencia que aportó a mi perfil un
-            enfoque metódico, disciplina en la validación de procesos y alta
-            atención al detalle.
+            Desarrolladora Full Stack con{" "}
+            <strong className="text-brand-text font-semibold">
+              5 años de trayectoria previa en análisis y control de calidad
+              industrial
+            </strong>
+            . Esta experiencia aportó a mi perfil un enfoque metódico,
+            disciplina estricta en la validación de procesos y alta atención al
+            detalle aplicada a la arquitectura de software.
           </p>
-          <p>
-            Especializada en el ecosistema JavaScript/TypeScript, construyo
-            aplicaciones web completas: desde interfaces intuitivas, responsivas
-            y modulares con React y Tailwind CSS, hasta servicios backend con
-            Node.js, APIs RESTful y persistencia de datos mediante ORMs.
-            Enfocada en la creación de software estable, bien estructurado y con
-            valor de negocio medible.
+          <p className="text-brand-muted text-xs sm:text-sm">
+            Especializada en crear aplicaciones web mantenibles, conectando
+            interfaces modulares con servicios backend bien estructurados y
+            gestión confiable de bases de datos.
           </p>
         </div>
       </div>

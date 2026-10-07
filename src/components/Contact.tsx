@@ -2,13 +2,13 @@ export function Contact() {
   return (
     <footer
       id="contacto"
-      className="w-full py-16 px-4 sm:px-6 border-t border-brand-border/60 bg-[#070913]/60 backdrop-blur-sm mt-12"
+      className="w-full py-16 px-4 sm:px-6 border-t border-slate-200/80 bg-white/70 backdrop-blur-sm mt-12"
     >
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto mb-12">
           <a
-            href="mailto:jimmartz03@gmail.com"
-            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-accent to-indigo-600 hover:from-purple-600 hover:to-indigo-500 text-white font-medium text-xs sm:text-sm transition-all shadow-md shadow-brand-purple/20 hover:scale-102"
+            href="mailto:jimmartzdev4@hotmail.com"
+            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-brand-accent hover:bg-brand-accent-hover text-white font-medium text-xs sm:text-sm transition-all shadow-sm shadow-emerald-600/20 hover:scale-102"
           >
             <svg
               className="w-4 h-4 shrink-0"
@@ -30,7 +30,7 @@ export function Contact() {
             href="https://github.com/JimMartzDev"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-brand-card/80 border border-brand-border hover:border-brand-purple/50 hover:bg-brand-card text-brand-text font-medium text-xs sm:text-sm transition-all hover:scale-102"
+            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-white border border-slate-200 hover:border-brand-accent/50 hover:bg-slate-50 text-slate-700 font-medium text-xs sm:text-sm transition-all hover:scale-102 shadow-xs"
           >
             <svg className="w-4 h-4 shrink-0 fill-current" viewBox="0 0 24 24">
               <path
@@ -46,7 +46,7 @@ export function Contact() {
             href="https://www.linkedin.com/in/jimena-martinez-44738627b"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-brand-card/80 border border-brand-border hover:border-brand-purple/50 hover:bg-brand-card text-brand-text font-medium text-xs sm:text-sm transition-all hover:scale-102"
+            className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl bg-white border border-slate-200 hover:border-brand-accent/50 hover:bg-slate-50 text-slate-700 font-medium text-xs sm:text-sm transition-all hover:scale-102 shadow-xs"
           >
             <svg className="w-4 h-4 shrink-0 fill-current" viewBox="0 0 24 24">
               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
@@ -55,7 +55,7 @@ export function Contact() {
           </a>
         </div>
 
-        <p className="text-[11px] sm:text-xs text-brand-muted/70">
+        <p className="text-[11px] sm:text-xs text-slate-400 font-mono">
           © {new Date().getFullYear()} JimMartzDev. Hecho con React, TypeScript
           & Tailwind CSS.
         </p>

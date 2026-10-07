@@ -3,19 +3,18 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
-  githubUrl: string;
+  githubUrl?: string;
   demoUrl?: string;
 }
 
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "Gestor de Tareas Full Stack",
+    title: "Sitio Corporativo - CRJ Construcciones",
     description:
-      "Aplicación para administración de tareas y proyectos con autenticación, filtrado por estados y persistencia en base de datos.",
-    tags: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL"],
-    githubUrl: "https://github.com/JimMartzDev",
-    demoUrl: "https://ejemplo-demo.com",
+      "Sitio web comercial desarrollado para empresa de construcción, enfocado en presencia digital, catálogo de proyectos/servicios y diseño adaptado a dispositivos móviles.",
+    tags: ["React", "TypeScript", "TailwindCSS"],
+    demoUrl: "https://crjconstrucciones.com/",
   },
   {
     id: 2,
