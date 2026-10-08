@@ -68,8 +68,10 @@ export function Skills() {
   return (
     <section
       id="habilidades"
-      className="py-12 sm:py-16 px-4 sm:px-6 max-w-5xl mx-auto w-full"
+      className="relative py-12 sm:py-16 px-4 sm:px-6 max-w-5xl mx-auto w-full"
     >
+      <div className="absolute top-1/3 -right-16 w-72 h-72 bg-emerald-100/40 rounded-full blur-3xl -z-10 pointer-events-none" />
+
       <div className="mb-8 text-center sm:text-left">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-brand-text mb-2">
           Habilidades <span className="text-brand-accent">Técnicas</span>
